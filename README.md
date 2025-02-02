@@ -1,5 +1,7 @@
 # Painel Multifotos
 
+![Projeto](assets/img/projeto.png)
+
 Este projeto consiste em uma galeria de imagens interativa, utilizando Bootstrap para estilização e funcionalidades como modal e carousel. Ao clicar em uma imagem, ela é aberta em um modal com navegação lateral para visualizar as demais fotos.
 
 ## 📌 Tecnologias Utilizadas
