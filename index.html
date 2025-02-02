@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Multifotos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+<section class="container-fluid py-5 d-flex flex-column justify-content-center align-items-center bg-secondary bg-gradient">   
+    <div class="container_fotos bg-white p-4 rounded mt-5 mb-5">
+        <h2 class="text-center mb-5 mt-5">Painel Multifotos</h2>
+        <div class="row g-2 mb-5">
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="assets/img/01.jpeg" class="img-fluid img-thumbnail open-modal" alt="Foto 1">
+                <img src="assets/img/03.jpg" class="img-fluid img-thumbnail open-modal" alt="Foto 3">
+                <img src="assets/img/04.jpg" class="img-fluid img-thumbnail open-modal" alt="Foto 4">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="assets/img/05.jpg" class="img-fluid img-thumbnail open-modal" alt="Foto 5">
+                <img src="assets/img/06.jpg" class="img-fluid img-thumbnail open-modal" alt="Foto 6">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="assets/img/07.jpg" class="img-fluid img-thumbnail open-modal" alt="Foto 7">
+                <img src="assets/img/08.jpg" class="img-fluid img-thumbnail open-modal" alt="Foto 8">
+                <img src="assets/img/09.jpg" class="img-fluid img-thumbnail open-modal" alt="Foto 9">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="assets/img/10.jpg" class="img-fluid img-thumbnail open-modal" alt="Foto 10">
+                <img src="assets/img/02.jpg" class="img-fluid img-thumbnail open-modal" alt="Foto 11">
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body p-0 position-relative">
+                    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">            
+                        <div class="carousel-inner" id="carouselItems"></div>
+                        <button type="button" class="btn btn-outline-light position-absolute posi m-3" data-bs-dismiss="modal">X</button>
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            &#10094;
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            &#10095;
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

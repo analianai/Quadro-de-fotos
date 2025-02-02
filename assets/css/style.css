@@ -1,0 +1,25 @@
+.container_fotos { width: 100%; max-width: 600px; }
+.img-thumbnail { cursor: pointer; transition: transform 0.3s ease; }
+.img-thumbnail:hover { transform: scale(1.2); }
+.modal-content img { width: 100%; height: auto; }
+.carousel-controls {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: -150px;
+    right: -150px;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+.carousel-controls button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.posi { 
+    right: 0 !important;
+    top: 0 !important;
+}
