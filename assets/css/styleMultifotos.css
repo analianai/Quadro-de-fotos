@@ -1,7 +1,18 @@
-.container_fotos { width: 100%; max-width: 600px; }
-.img-thumbnail { cursor: pointer; transition: transform 0.3s ease; }
-.img-thumbnail:hover { transform: scale(1.2); }
-.modal-content img { width: 100%; height: auto; }
+.container_fotos { 
+    width: 100%; 
+    max-width: 600px; 
+}
+.img-thumbnail { 
+    cursor: pointer; 
+    transition: transform 0.3s ease; 
+}
+.img-thumbnail:hover { 
+    transform: scale(1.2);
+ }
+.modal-content img { 
+    width: 100%; 
+    height: auto; 
+}
 .carousel-controls {
     display: flex;
     justify-content: space-between;
